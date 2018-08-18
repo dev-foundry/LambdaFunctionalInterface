@@ -24,6 +24,8 @@ public class TestApp {
 
         nothingSpecial.nothing();
 
+        integerList.forEach(System.out::println);
+
     }
 
     private static void printMessage() {
